@@ -1,1 +1,0 @@
-select * from sys_MenusNew where href like '%app/settings/regions%'
