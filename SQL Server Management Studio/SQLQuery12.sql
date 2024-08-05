@@ -1,0 +1,10 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT TOP (20000) [CityID]
+      ,[CityName]
+      ,[StateProvinceID]
+      ,[Location]
+      ,[LatestRecordedPopulation]
+      ,[LastEditedBy]
+      ,[ValidFrom]
+      ,[ValidTo]
+  FROM [WideWorldImporters].[Application].[Cities]
